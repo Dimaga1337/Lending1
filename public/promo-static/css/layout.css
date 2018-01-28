@@ -1,0 +1,28 @@
+@font-face {
+    font-family: UbuntuMono-R; /* Имя шрифта */
+    src: url('../../promo-static/fonts/UbuntuMono-R.ttf'); /* Путь к файлу со шрифтом */
+}
+
+body {
+    margin: 0;
+    font-family: UbuntuMono-R;
+}
+
+.container {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+.btn {
+
+}
